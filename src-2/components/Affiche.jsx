@@ -1,12 +1,16 @@
 import React from 'react'
-import { Search } from '../Data/Icons'
+import { Search, Delete } from '../Data/Icons'
+import Data from "../Data/data.json"
 
 export default function Affiche() {
     return (
-        <section className="countainer">
+        <section className="countainer affiche-section">
             <div className='form-row space'>
-                <h3 className='Title'>Stock</h3>
-                <button className='btn bg-primary'>Ajouter</button>
+                <div>
+                    <h3 className='Title'>Stock <small className='fs-1'>{`(259 item)`}</small></h3>
+                    <p className='paragraph'>gérer tout votre stock</p>
+                </div>
+                <button className='btn bg-primary'>+ Ajouter</button>
             </div>
             <table className='table'>
                 <thead>
@@ -17,30 +21,34 @@ export default function Affiche() {
                                 <input className='Search fw-2' type="text" placeholder='Search...' />
                             </div>
                         </td>
-                        <td colSpan={1}>
+                        <td colSpan={2}>
                             <div className="Filter-btn">
                                 <span>Filter {`>`}</span>
                             </div>
                         </td>
                     </tr>
+                    <tr>
+                        <th>index</th>
+                        <th>Nom de produit</th>
+                        <th>Quntité</th>
+                        <th>Period</th>
+                        <th>Actions</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td >1</td>
-                        <td>Computer</td>
-                        <td>150</td>
-                        <td className='operation'>
-                            <button className='btn btnDelete bg-danger'>Supprimer</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Computer</td>
-                        <td>150</td>
-                        <td className='operation'>
-                            <button className='btn btnDelete bg-danger'>Supprimer</button>
-                        </td>
-                    </tr>
+                    {
+                        Data.Stock.map( (one,index) => (
+                            <tr key={index}>
+                                <th className='fw'>{index+1}</th>
+                                <td className='fw-2 fs-2'>{one.type}</td>
+                                <td className='fw-2'>{one.Quntité}</td>
+                                <td className='fw-2'>{one.Date}</td>
+                                <td className='operation'>
+                                    <Delete />
+                                </td>
+                            </tr>
+                        ) )
+                    }
                 </tbody>
             </table>
         </section>

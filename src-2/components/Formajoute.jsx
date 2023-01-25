@@ -43,7 +43,7 @@ export default function Formajoute() {
       <label htmlFor="description">Description</label>
       <textarea placeholder="Ajouter une Discription..." name="" id="description" cols={30} rows={10} defaultValue={""} />
     </div>
-    <button className="btn bg-primary">Ajouter</button>
+    <button className="btn bg-primary">+ Ajouter</button>
   </form> 
   )
 }
