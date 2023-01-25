@@ -1,0 +1,23 @@
+{
+    "Produits" : [
+        {"name" : "Ordinateur bureau" , "Info" : [
+            {"name" : "Marque d'ordinateur", "data":["hp","DELL","Lenovo"]},
+            {"name" : "Configuration d'ordinateur", "data":["i5 6éme Generation","i5 7éme Generation","i5 8éme Generation","i5 9éme Generation","i5 10éme Generation","i5 11éme Generation"]}
+        ]},
+        {"name" : "Ordinateur portable" , "Info" : [
+            {"name" : "Marque d'ordinateur", "data":["hp","DELL","Lenovo",""]},
+            {"name" : "Configuration d'ordinateur", "data":["i5 6","7","8"]}
+        ]},
+        {"name" : "Imprimante Multifuntion" , "Info" : [
+            {"name" : "Type d'Imprimante","data":["Couleur","Son couleur"]}
+        ]},
+        {"name" : "Disk dur Externe" , "Info" : [
+            {"name" : "Capacité" , "data" : ["250Gb","500Gb","1T","2T"]}
+            ]},
+        {"name" : "Imprimante Couleur" , "Info" : []},
+        {"name" : "Vidéo projecteur" , "Info" : []},
+        {"name" : "Photocopieuse" , "Info" : []},
+        {"name" : "Scanner" , "Info" : []},
+        {"name" : "Autre" , "Info" : []}
+    ]
+}
