@@ -1,0 +1,35 @@
+{
+    "Produits" : [
+        {"id":1,"name" : "Ordinateur bureau" , "Info" : [
+            {"name" : "Marque d'ordinateur", "data":["hp","DELL","LENOVO"]},
+            {"name" : "Configuration d'ordinateur", "data":["i5 6éme Generation","i5 7éme Generation","i5 8éme Generation","i5 9éme Generation","i5 10éme Generation","i5 11éme Generation"]}
+        ]},
+        {"id":2,"name" : "Ordinateur portable" , "Info" : [
+            {"name" : "Marque d'ordinateur", "data":["hp","DELL","Lenovo",""]},
+            {"name" : "Configuration d'ordinateur", "data":["i5 6","7","8"]}
+        ]},
+        {"id":3,"name" : "Imprimante Multifuntion" , "Info" : [
+            {"name" : "Type d'Imprimante","data":["Couleur","Son couleur"]}
+        ]},
+        {"id":4,"name" : "Disk dur Externe" , "Info" : [
+            {"name" : "Capacité" , "data" : ["250Gb","500Gb","1T","2T"]}
+            ]},
+        {"id":5,"name" : "Imprimante Couleur" , "Info" : []},
+        {"id":6,"name" : "Vidéo projecteur" , "Info" : []},
+        {"id":7,"name" : "Photocopieuse" , "Info" : []},
+        {"id":8,"name" : "Scanner" , "Info" : []},
+        {"id":9,"name" : "Autre" , "Info" : []}
+    ],
+
+
+    "Stock" : [
+        {"id" : 1 ,"name" : "Ordinateur bureau" , "data" : [{"Quntité" : {"status": true,"Nb" : 75,"total":567} , "Date" : "2023/01/25","type":"hp"},
+                                                            {"Quntité" : {"status": false,"Nb" : 15,"total":571} , "Date" : "2023/01/25","type":"DELL"},
+                                                            {"Quntité" : {"status": false,"Nb" : 35,"total":321} , "Date" : "2023/01/25","type":"LENOVO"}]},
+        {"id" : 9 ,"name" : "Autre" , "data" : [{"Quntité" : {"status": true,"Nb" : 35,"total":95} , "Date" : "2023/11/24","type":null}]},
+        {"id" : 1 ,"name" : "Imprimante Multifuntion" , "data" : [{"Quntité" : {"status": true,"Nb" : 75,"total":84} , "Date" : "2023/01/25","type":"Couleur"},
+                                                                {"Quntité" : {"status": false,"Nb" : 35,"total":24} , "Date" : "2023/01/25","type":"Son couleur"}]},
+        {"id" : 5 ,"name" : "Imprimante Couleur" , "data" : [{"Quntité" : {"status": true,"Nb" : 15,"total":65} , "Date" : "2023/06/31","type":"Imprimante Couleur"}]},
+        {"id" : 7 ,"name" : "Photocopieuse" , "data" : [{"Quntité" : {"status": false,"Nb" : 15,"total":25} , "Date" : "2023/08/01","type":null}]}
+    ]
+}
