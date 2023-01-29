@@ -1,0 +1,192 @@
+{
+    "Produits" : [
+        {"id":1,"name" : "Ordinateur bureau" , "Info" : [
+            {"name" : "Marque d'ordinateur", "data":["hp","DELL","LENOVO"]},
+            {"name" : "Configuration d'ordinateur", "data":["i5 6éme Generation","i5 7éme Generation","i5 8éme Generation","i5 9éme Generation","i5 10éme Generation","i5 11éme Generation"]}
+        ]},
+        {"id":2,"name" : "Ordinateur portable" , "Info" : [
+            {"name" : "Marque d'ordinateur", "data":["hp","DELL","Lenovo",""]},
+            {"name" : "Configuration d'ordinateur", "data":["i5 6","7","8"]}
+        ]},
+        {"id":3,"name" : "Imprimante Multifuntion" , "Info" : [
+            {"name" : "Type d'Imprimante","data":["Couleur","Son couleur"]}
+        ]},
+        {"id":4,"name" : "Disk dur Externe" , "Info" : [
+            {"name" : "Capacité" , "data" : ["250Gb","500Gb","1T","2T"]}
+            ]},
+        {"id":5,"name" : "Imprimante Couleur" , "Info" : []},
+        {"id":6,"name" : "Vidéo projecteur" , "Info" : []},
+        {"id":7,"name" : "Photocopieuse" , "Info" : []},
+        {"id":8,"name" : "Scanner" , "Info" : []},
+        {"id":9,"name" : "Autre" , "Info" : []}
+    ],
+
+    
+ 
+    "stock":[
+        {"name":"Ordinateur bureau","data":[
+            {"type":"hp","total":1059,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"i5 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"i7 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":12,"date":"2020-01-01","status":false,"description":"lorem"},
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":10,"date":"2020-01-01","status":false,"description":"lorem"},
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]},
+            {"type":"DELL","total":811,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"i5 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"i7 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]},
+            {"type":"Lenovo","total":640,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"i5 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"i7 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Ordinateur portable","data":[
+            {"type":"hp","total":550,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"i5 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"i7 5eme","historique":[
+                    {"quntity":15,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]},
+            {"type":"DELL","total":865,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"i5 5eme","historique":[
+                    {"quntity":10,"date":"2029-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2015-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"i7 5eme","historique":[
+                    {"quntity":10,"date":"2011-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2022-01-01","status":false,"description":"lorem"},
+                    {"quntity":4,"date":"2018-05-05","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Imprimante Multifuntion","data":[
+            {"type":"Couleur","total":995,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"Couleur","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]},
+            {"type":"San Couleur","total":0,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"i5 5eme","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Disk dur Externe","data":[
+            {"type":"Disk dur Externe","total":485,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"250Gb","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"500Gb","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"1T","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]},
+                {"name":"2T","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Imprimante Couleur","data":[
+            {"type":"Imprimante Couleur","total":485,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"Imprimante Couleur","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Vidéo projecteur","data":[
+            {"type":"Vidéo projecteur","total":972,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"Vidéo projecteur","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Photocopieuse","data":[
+            {"type":"Photocopieuse","total":258,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"Photocopieuse","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Scanner","data":[
+            {"type":"Scanner","total":365,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"Scanner","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]},
+
+
+        {"name":"Autre","data":[
+            {"type":"Tv","total":412,"lastAction":{"Date":"2022-01-01","Valeur":15,"Status":false},"info":[
+                {"name":"Tv","historique":[
+                    {"quntity":10,"date":"2020-01-01","status":true,"description":"lorem"},
+                    {"quntity":4,"date":"2020-01-01","status":false,"description":"lorem"}
+                ]}
+            ]}
+        ]}
+
+
+    ],
+
+
+    "Stock" : [
+        {"id" : 1 ,"name" : "Ordinateur bureau" , "data" : [{"Quntité" : {"status": true,"Nb" : 75,"total":567} , "Date" : "2023/01/25","type":"hp"},
+                                                            {"Quntité" : {"status": false,"Nb" : 15,"total":571} , "Date" : "2023/01/25","type":"DELL"},
+                                                            {"Quntité" : {"status": false,"Nb" : 35,"total":321} , "Date" : "2023/01/25","type":"LENOVO"}]},
+        {"id" : 9 ,"name" : "Autre" , "data" : [{"Quntité" : {"status": true,"Nb" : 35,"total":95} , "Date" : "2023/11/24","type":null}]},
+        {"id" : 1 ,"name" : "Imprimante Multifuntion" , "data" : [{"Quntité" : {"status": true,"Nb" : 75,"total":84} , "Date" : "2023/01/25","type":"Couleur"},
+                                                                {"Quntité" : {"status": false,"Nb" : 35,"total":24} , "Date" : "2023/01/25","type":"Son couleur"}]},
+        {"id" : 5 ,"name" : "Imprimante Couleur" , "data" : [{"Quntité" : {"status": true,"Nb" : 15,"total":65} , "Date" : "2023/06/31","type":"Imprimante Couleur"}]},
+        {"id" : 7 ,"name" : "Photocopieuse" , "data" : [{"Quntité" : {"status": false,"Nb" : 15,"total":25} , "Date" : "2023/08/01","type":null}]}
+    ]
+}
