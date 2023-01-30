@@ -1,0 +1,248 @@
+{
+  "Produits": [
+    {
+      "id": 1,
+      "name": "Ordinateur bureau",
+      "Info": [
+        {
+          "name": "Marque d'ordinateur",
+          "data": [
+            "hp",
+            "DELL",
+            "Lenovo"
+          ],
+          "type": "type"
+        },
+        {
+          "name": "Configuration d'ordinateur",
+          "type": "config",
+          "data": [
+            "i5 6éme Generation",
+            "i5 7éme Generation",
+            "i5 8éme Generation",
+            "i5 9éme Generation",
+            "i5 10éme Generation",
+            "i5 11éme Generation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ordinateur portable",
+      "Info": [
+        {
+          "name": "Marque d'ordinateur",
+          "data": [
+            "hp",
+            "DELL",
+            "Lenovo"
+          ],
+          "type": "type"
+        },
+        {
+          "name": "Configuration d'ordinateur",
+          "data": [
+            "i5 6éme Generation",
+            "i5 7éme Generation",
+            "i5 8éme Generation",
+            "i5 9éme Generation",
+            "i5 10éme Generation",
+            "i5 11éme Generation"
+          ],
+          "type": "config"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Imprimante Multifuntion",
+      "Info": [
+        {
+          "name": "Type d'Imprimante",
+          "data": [
+            "Couleur",
+            "San Couleur"
+          ],
+          "type": "type"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Disk dur Externe",
+      "Info": [
+        {
+          "name": "Capacité",
+          "data": [
+            "250Gb",
+            "500Gb",
+            "1T",
+            "2T"
+          ],
+          "type": "type"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Imprimante Couleur",
+      "Info": []
+    },
+    {
+      "id": 6,
+      "name": "Vidéo projecteur",
+      "Info": []
+    },
+    {
+      "id": 7,
+      "name": "Photocopieuse",
+      "Info": []
+    },
+    {
+      "id": 8,
+      "name": "Scanner",
+      "Info": []
+    },
+    {
+      "id": 9,
+      "name": "Autre",
+      "Info": [
+        {
+          "name": "Le nom de produits",
+          "type": "type"
+        }
+      ]
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "name": "Ordinateur bureau",
+      "data": [
+        {
+          "type": "hp",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        },
+        {
+          "type": "DELL",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        },
+        {
+          "type": "Lenovo",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ordinateur portable",
+      "data": [
+        {
+          "type": "hp",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        },
+        {
+          "type": "DELL",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        },
+        {
+          "type": "Lenovo",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Imprimante Multifuntion",
+      "data": [
+        {
+          "type": "Couleur",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        },
+        {
+          "type": "San Couleur",
+          "total": 0,
+          "lastAction": {
+            "date": "-",
+            "valeur": 0,
+            "status": true
+          },
+          "info": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Disk dur Externe",
+      "data": []
+    },
+    {
+      "id": 5,
+      "name": "Imprimante Couleur",
+      "data": []
+    },
+    {
+      "id": 6,
+      "name": "Vidéo projecteur",
+      "data": []
+    },
+    {
+      "id": 7,
+      "name": "Photocopieuse",
+      "data": []
+    },
+    {
+      "id": 8,
+      "name": "Scanner",
+      "data": [      ]
+    },
+    {
+      "id": 9,
+      "name": "Autre",
+      "data": []
+    }
+  ]
+}
